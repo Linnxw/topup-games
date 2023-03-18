@@ -17,7 +17,7 @@ export default function About(){
        <div className="ml-2">
          <div className="text-[#B09872] flex items-center mt-2" onClick={()=>nvgt("/")}><IoIosArrowForward/><p className="text-[#FEFEFE]">Home</p></div>
           <div className="text-[#B09872] flex items-center mt-2" onClick={()=>nvgt("/invoice")}><IoIosArrowForward/><p className="text-[#FEFEFE]">Search</p></div>
-          <div className="text-[#B09872] flex items-center mt-2"><IoIosArrowForward/><p className="text-[#FEFEFE]">Contact</p></div>
+          <div className="text-[#B09872] flex items-center mt-2" onClick={()=>nvgt("/contact")}><IoIosArrowForward/><p className="text-[#FEFEFE]">Contact</p></div>
        </div>
       </div>
     </div>

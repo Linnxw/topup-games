@@ -27,15 +27,15 @@ export default function Home(){
   }
   return (
     <div className="bg-second h-full w-full">
-    <Navbar/>
-    <SwiperBanner/>
-    <Search/>
-    <Content/>
-    <About/>
-    <Footer/>
-    {
-      scroll && <BtnScrollTop event={handleScrollTop}/>
-    }
+      <Navbar/>
+      <SwiperBanner/>
+      <Search/>
+      <Content/>
+      <About/>
+      <Footer/>
+      {
+        scroll && <BtnScrollTop event={handleScrollTop}/>
+      }
     
     </div>
     )
