@@ -8,10 +8,26 @@
 - Tailwind css
 - Swiper js
 ## Instalation
-1.Clone repository ini
-2.masuk ke direktori repo
-3.npm install
-4.npm start 
+### 1. clone repository ini dengan perintah berikut 
+```
+git clone https://github.com/Linnxw/topup-games.git
+```
+### 2. Masuk ke direktori projek 
+```
+cd topup-games
+```
+### 3. Install dependency yg dibutuhkan untuk menjalankan projek
+```
+npm install
+```
+### 4. Jalankan server
+```
+npm start
+```
+### 5. Buka browser dan masuk ke url berikut
+```
+http://localhost:3000
+```
 ## Demo
 https://linnxwstore.netlify.app
 
